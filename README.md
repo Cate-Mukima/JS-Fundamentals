@@ -1,0 +1,1 @@
+write 'JavaScript is amazing' in 0-javascript_is_amazing.js file.
