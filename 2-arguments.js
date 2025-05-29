@@ -1,11 +1,10 @@
-const args = process.argv.slice(2);
+const userArgs = process.argv.slice(2); // Only user-passed arguments
+const count = userArgs.length;
 
-if (args.length === 0) {
-  console.log('No argument');
-} else if (args.length ===2) {
-  console.log(' best Argument found');
-} else(args.length ==2)
-{
-  console.log('Best School Argument found');
-}
-
+console.log(
+  count === 0
+    ? "No argument"
+    : count === 1
+    ? "Best Argument found"
+    : "Best School Arguments found"
+);
