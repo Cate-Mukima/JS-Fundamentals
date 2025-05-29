@@ -1,4 +1,4 @@
-const userArgs = process.argv.slice(2); // Only user-passed arguments
-const count = userArgs.length;
+const userArgs = process.argv.slice(2);
 
-console.log(count <= 1 ? "No argument" : userArgs[0]);
+if (!userArgs[0]) console.log("No argument");
+else console.log(userArgs[0]);
