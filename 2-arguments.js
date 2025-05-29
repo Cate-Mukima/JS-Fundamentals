@@ -5,6 +5,6 @@ console.log(
   count === 0
     ? "No argument"
     : count === 1
-    ? "Best Argument found"
-    : "Best School Arguments found"
+    ? "Argument found"
+    : "Arguments found"
 );
