@@ -4,4 +4,4 @@ if (isNaN(size)) {
   return;
 }
 
-for (let j = 0; j < size; j++) console.log("x".repeat(size));
+for (let j = 0; j < size; j++) console.log("X".repeat(size));
